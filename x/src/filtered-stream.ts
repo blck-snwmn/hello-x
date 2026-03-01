@@ -2,11 +2,11 @@ import client from "./client.ts";
 
 const ruleValue = process.argv[2];
 if (!ruleValue) {
-  console.error('Usage: bun run src/filtered-stream.ts "<rule>"');
+  console.error('Usage: bun run x/src/filtered-stream.ts "<rule>"');
   console.error('Examples:');
-  console.error('  bun run src/filtered-stream.ts "from:username"');
-  console.error('  bun run src/filtered-stream.ts "#hashtag"');
-  console.error('  bun run src/filtered-stream.ts "keyword has:images"');
+  console.error('  bun run x/src/filtered-stream.ts "from:username"');
+  console.error('  bun run x/src/filtered-stream.ts "#hashtag"');
+  console.error('  bun run x/src/filtered-stream.ts "keyword has:images"');
   process.exit(1);
 }
 

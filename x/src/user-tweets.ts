@@ -2,7 +2,7 @@ import client from "./client.ts";
 
 const username = process.argv[2];
 if (!username) {
-  console.error("Usage: bun run src/user-tweets.ts <username>");
+  console.error("Usage: bun run x/src/user-tweets.ts <username>");
   process.exit(1);
 }
 

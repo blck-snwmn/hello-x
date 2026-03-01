@@ -1,15 +1,5 @@
 {
   "name": "hello-x",
-  "module": "index.ts",
-  "type": "module",
   "private": true,
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  },
-  "dependencies": {
-    "@xdevplatform/xdk": "^0.4.0"
-  }
+  "workspaces": ["x", "grok"]
 }
