@@ -17,7 +17,7 @@
     "x": {
       "name": "x",
       "dependencies": {
-        "@xdevplatform/xdk": "^0.4.0",
+        "@xdevplatform/xdk": "^0.5.0",
       },
       "devDependencies": {
         "@types/bun": "latest",
@@ -32,7 +32,7 @@
 
     "@types/node": ["@types/node@25.3.2", "", { "dependencies": { "undici-types": "~7.18.0" } }, "sha512-RpV6r/ij22zRRdyBPcxDeKAzH43phWVKEjL2iksqo1Vz3CuBUrgmPpPhALKiRfU7OMCmeeO9vECBMsV0hMTG8Q=="],
 
-    "@xdevplatform/xdk": ["@xdevplatform/xdk@0.4.0", "", { "peerDependencies": { "node-fetch": "^3.3.0" }, "optionalPeers": ["node-fetch"] }, "sha512-jl0lPyMYVFaQOWvG2D4i8vC72/CMh/bOcMbjZA2jP5gUMV2MztC5zTEsF3I76VS8wxdDrtrOTiX2BRzKsua6LA=="],
+    "@xdevplatform/xdk": ["@xdevplatform/xdk@0.5.0", "", { "peerDependencies": { "node-fetch": "^3.3.0" }, "optionalPeers": ["node-fetch"] }, "sha512-Ye3yAmJOhal7wqvq6z8iJgSxq4+ytQmPFMMkyg/cPcdoeebqHZBdwTmc3T78kTbUwQy8NoCFRjgTrC+n7lmPnA=="],
 
     "bun-types": ["bun-types@1.3.14", "", { "dependencies": { "@types/node": "*" } }, "sha512-4N0ig0fEomHt5R0KCFWjovxow98rIoRwKolrYdCcknNwMekCXRnWEUvgu5soYV8QXtVsrUD8B95MBOZGPvr6KQ=="],
 
@@ -43,5 +43,9 @@
     "undici-types": ["undici-types@7.18.2", "", {}, "sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w=="],
 
     "x": ["x@workspace:x"],
+
+    "x/@types/bun": ["@types/bun@1.3.14", "", { "dependencies": { "bun-types": "1.3.14" } }, "sha512-h1hFqFVcvAvD9j9K7ZW7vd82aSA+rTdznZa+5bwvCwqSB1jmmfLcbIWhOLx1/+boy/xmjgCs/OMUL8hRJSmnPw=="],
+
+    "x/@types/bun/bun-types": ["bun-types@1.3.14", "", { "dependencies": { "@types/node": "*" } }, "sha512-4N0ig0fEomHt5R0KCFWjovxow98rIoRwKolrYdCcknNwMekCXRnWEUvgu5soYV8QXtVsrUD8B95MBOZGPvr6KQ=="],
   }
 }

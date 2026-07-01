@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "dependencies": {
-    "@xdevplatform/xdk": "^0.4.0"
+    "@xdevplatform/xdk": "^0.5.0"
   },
   "devDependencies": {
     "@types/bun": "latest"
