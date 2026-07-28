@@ -17,7 +17,7 @@
     "x": {
       "name": "x",
       "dependencies": {
-        "@xdevplatform/xdk": "0.6.0",
+        "@xdevplatform/xdk": "0.6.6",
       },
       "devDependencies": {
         "@types/bun": "latest",
@@ -32,7 +32,7 @@
 
     "@types/node": ["@types/node@25.3.2", "", { "dependencies": { "undici-types": "~7.18.0" } }, "sha512-RpV6r/ij22zRRdyBPcxDeKAzH43phWVKEjL2iksqo1Vz3CuBUrgmPpPhALKiRfU7OMCmeeO9vECBMsV0hMTG8Q=="],
 
-    "@xdevplatform/xdk": ["@xdevplatform/xdk@0.6.0", "", { "peerDependencies": { "node-fetch": "^3.3.0" }, "optionalPeers": ["node-fetch"] }, "sha512-dHZO7jHRVLsuY6ykqnI1WVwdrfI+3Xd33KNRZdSI6FfTek6pOsAbtCrawgmX/EEi7YaTpoKlx7Xb7JtGUe9kZg=="],
+    "@xdevplatform/xdk": ["@xdevplatform/xdk@0.6.6", "", { "peerDependencies": { "node-fetch": "^3.3.0" }, "optionalPeers": ["node-fetch"] }, "sha512-ced4iHSz08eQe1L0N3UWVvJyfGnmGU0CRjecoXpr27dVIyQvc637Pxm3cdP4G85PwhHn5IGVJ1DJF2YD9zWfAg=="],
 
     "bun-types": ["bun-types@1.3.14", "", { "dependencies": { "@types/node": "*" } }, "sha512-4N0ig0fEomHt5R0KCFWjovxow98rIoRwKolrYdCcknNwMekCXRnWEUvgu5soYV8QXtVsrUD8B95MBOZGPvr6KQ=="],
 
